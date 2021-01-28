@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Prompt;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b5e20;
+  padding: 3px 12px;
+}
+.menu {
+  display: flex;
+  font-size: 18px;
+  list-style: none;
+  padding: 0;
+}
+.menu li {
+  padding: 8px 12px;
+}
+.menu li:hover {
+  background-color: #4c8c4a;
+  border-radius: 4px;
+}
+.logo {
+  color: whitesmok;
+  font-size: 24px;
+}
+.logo i {
+  color: wheat;
+}
+.icons {
+  color: whitesmoke;
+  font-size: 24px;
+  display: flex;
+}
+.icons i {
+  padding: 8px 12px;
+}
